@@ -22,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 //import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     FormsModule,
    // HttpClient,
-    HttpClientModule
+    HttpClientModule,
+    //MatTableModule
     
   ],
   providers: [],
